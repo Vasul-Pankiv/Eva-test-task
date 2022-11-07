@@ -1,5 +1,8 @@
 package com.example.evatesttask.service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import com.example.evatesttask.model.Product;
 import com.example.evatesttask.repository.ProductRepository;
 import com.example.evatesttask.service.impl.ProductServiceImpl;
@@ -10,10 +13,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @ExtendWith(MockitoExtension.class)
 class ProductServiceTest {

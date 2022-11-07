@@ -1,5 +1,6 @@
 package com.example.evatesttask.controller;
 
+import java.util.stream.Stream;
 import com.example.evatesttask.model.Product;
 import com.example.evatesttask.service.ProductService;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
@@ -14,10 +15,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
-
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
